@@ -142,10 +142,10 @@ app.post('/check-status-order', async (req, res) => {
 // Email configuration
 const APP_PORT = process.env.APP_PORT || 4000;
 const APP_HOST = process.env.APP_HOST || 'localhost';
-const GOOGLE_MAILER_CLIENT_ID = process.env.GOOGLE_MAILER_CLIENT_ID || '902591770184-19tnt5arl18kctg6er347p2veisl9btf.apps.googleusercontent.com';
-const GOOGLE_MAILER_CLIENT_SECRET = process.env.GOOGLE_MAILER_CLIENT_SECRET || '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';
-const GOOGLE_MAILER_REFRESH_TOKEN = process.env.GOOGLE_MAILER_REFRESH_TOKEN || '1//04ZVy6OXlUDWUCgYIARAAGAQSNwF-L9IrEado31PCkSkQPb388_4JnvGWRswsth1PImLCh7WT7IV3kBFAiFrS9PX4EXEV_6auQLQ';
-const ADMIN_EMAIL_ADDRESS = process.env.ADMIN_EMAIL_ADDRESS || 'nhatyhnl1258@gmail.com';
+const GOOGLE_MAILER_CLIENT_ID = process.env.GOOGLE_MAILER_CLIENT_ID ;
+const GOOGLE_MAILER_CLIENT_SECRET = process.env.GOOGLE_MAILER_CLIENT_SECRET ;
+const GOOGLE_MAILER_REFRESH_TOKEN = process.env.GOOGLE_MAILER_REFRESH_TOKEN ;
+const ADMIN_EMAIL_ADDRESS = process.env.ADMIN_EMAIL_ADDRESS ;
 
 const myOAuth2Client = new OAuth2Client(
   GOOGLE_MAILER_CLIENT_ID,
